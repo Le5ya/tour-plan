@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Muly', sans-serif;
-  background-color: #f5fafe;
+  background-color: #F5FAFE;
 }
 
 .container {
@@ -474,6 +474,10 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+.breadcrumb-list {
+  list-style: none;
 }
 
 @media (max-width: 1200px) {
