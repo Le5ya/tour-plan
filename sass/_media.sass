@@ -9,8 +9,12 @@
         width: 100%
         height: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 230px
 @media (max-width: 992px)
-  .container, .newsletter-wrapper
+  .container,
+  .newsletter-wrapper
     max-width: 700px
   .logo
     width: 132px
@@ -36,16 +40,24 @@
       margin-bottom: 30px
     &-right
       flex-direction: row
-  .booking
-    width: 340px
   .slider
     width: 100%
+    .booking
+      width: 340p
   .map
     width: 340px
   .reviews
     &-slider
       &__item
         max-width: 580px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 340px
+    height: 250px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -119,6 +131,12 @@
           right: 50%
           transform: translate(50%, 0)
           margin-right: -65p
+  .activities 
+    padding-top: 40px
+    padding-bottom: 60px
+  .card
+    width: 47%
+    height: 255px
 @media (max-width: 576px)
   .logo
     width: 99p
@@ -131,6 +149,8 @@
     &__title
       padding-bottom: 37px
   .subscribe
+    width: 100%
+  .card
     width: 100%
         
 
