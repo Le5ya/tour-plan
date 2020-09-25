@@ -907,7 +907,7 @@ template {
   padding: 0 62px 30px;
 }
 
-.reviews-slider__item:before {
+.reviews-slider__item::before {
   conent: '';
   position: absolute;
   left: 62px;
@@ -918,7 +918,7 @@ template {
   background-repeat: no-repeat;
 }
 
-.reviews-slider__item:after {
+.reviews-slider__item::after {
   conent: '';
   position: absolute;
   right: 62px;
