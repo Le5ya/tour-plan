@@ -1121,14 +1121,15 @@ template {
   display: grid;
   -ms-grid-columns: 350px 350px 350px;
       grid-template-columns: 350px 350px 350px;
-  -ms-grid-rows: 500px 500px 500px;
-      grid-template-rows: 500px 500px 500px;
+  -ms-grid-rows: 500px 500px;
+      grid-template-rows: 500px 500px;
   grid-gap: 30px;
   width: 1210px;
   height: 130px;
 }
 
 .packages__card {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1143,6 +1144,26 @@ template {
   height: 500px;
 }
 
+.packages__card-button {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: 200px;
+  margin-top: 400px;
+  padding: 7px 22px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ec1f46;
+}
+
+.packages__card-button--first {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 .packages__card-title {
   margin-left: 20px;
   font-size: 18px;
@@ -1152,12 +1173,12 @@ template {
 .packages__card-text {
   font-size: 14px;
   line-height: 18px;
+  margin-top: 20px;
 }
 
 .packages__card-main {
   width: 350px;
   height: 250px;
-  border-radius: 8px 8px 0 0;
 }
 
 .packages__card-main--second {
@@ -1183,8 +1204,6 @@ template {
 }
 
 .packages__card--first {
-  -ms-grid-column: 1;
-  grid-column: 1fr;
   width: 366px;
 }
 
@@ -1200,12 +1219,14 @@ template {
 }
 
 .packages__card--seconde {
-  -ms-grid-column: 1;
-  grid-column: 1fr;
   width: 364px;
   background: #0a223d;
   color: #ffffff;
   border-radius: 0 8px 8px 0;
+}
+
+.packages__card--other {
+  border-radius: 8px;
 }
 
 .room {
