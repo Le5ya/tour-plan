@@ -1110,10 +1110,11 @@ template {
 .packages__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
   text-transform: uppercase;
-  margin-bottom: 57px;
+  margin-bottom: 75px;
 }
 
 .packages__grid {
