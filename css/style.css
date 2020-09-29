@@ -1418,6 +1418,37 @@ template {
   color: #e0e0e0;
 }
 
+.footer-bottom {
+  min-width: 710px;
+  height: 22px;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-bottom__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 300px;
+}
+
+.footer-bottom__span {
+  margin-left: 20px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
