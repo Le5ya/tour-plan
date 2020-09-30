@@ -1680,8 +1680,8 @@ template {
   }
   .user__name_light {
     color: #ffffff;
-    margin-left: 0;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 0;
   }
   .stars {
     -ms-flex-preferred-size: 50%;
@@ -1862,6 +1862,21 @@ template {
     grid-row: 7;
     -ms-grid-column: 1;
     grid-column: 1;
+  }
+  .footer__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .footer__info {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
