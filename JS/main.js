@@ -19,11 +19,19 @@ var reviewsSlider = new Swiper(".reviews-slider", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".reviews-slider__button--prev",
-    prevEl: ".reviews-slider__button--next",
+    nextEl: ".reviews-slider__button--next",
+    prevEl: ".reviews-slider__button--prev",
   },
   keyboard: {
     enabled: true,
     onlyViewport: false,
   },
+});
+
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log("click");
+  document
+    .querySelector(".navbar-bottom")
+    .classList.toggle("navbar-bottom_visible");
 });
