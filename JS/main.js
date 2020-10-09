@@ -61,5 +61,21 @@ $(document).ready(function () {
   });
 
   //Обработка форм
-  $(".modal__form").validate();
+  $(".modal__form").validate({
+    errorClass: "invalid",
+    messages: {
+      name: {
+        requiered: "Укажите имя",
+        minlength: "Имя не короче двух букв",
+      },
+      email: {
+        reqired: "We need your email adress to contact you",
+        email: "Your email address must be in format of name@domain.com",
+      },
+      phone: {
+        required: "Телефон обязателен",
+      },
+    },
+  });
+  AOS.init();
 });

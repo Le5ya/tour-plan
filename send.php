@@ -1,4 +1,3 @@
-
 <?php
 // Файлы phpmailer
 require 'phpmailer/PHPMailer.php';
@@ -7,7 +6,7 @@ require 'phpmailer/Exception.php';
 
 // Переменные, которые отправляет пользователь
 $name = $_POST['name'];
-$email = $_POST['phone'];
+$phone = $_POST['phone'];
 $text = $_POST['message'];
 
 // Формирование самого письма
@@ -54,4 +53,4 @@ else {$result = "error";}
 }
 
 // Отображение результата
-header('Location: thanks.html');
+header('Location: thakyou.html');
