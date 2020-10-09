@@ -72,7 +72,6 @@ $(document).ready(function () {
         reqired: "We need your email adress to contact you",
         email: "Your email address must be in format of name@domain.com",
       },
-<<<<<<< HEAD
       phone: {
         required: "Телефон обязателен",
       },
@@ -80,7 +79,3 @@ $(document).ready(function () {
   });
   AOS.init();
 });
-=======
-    },
-  });
->>>>>>> 17dff9941809583bab971878b9bf19fac5674cea
